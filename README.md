@@ -65,9 +65,6 @@ npm run dev
 ![con4](https://github.com/user-attachments/assets/d514daa2-5d78-48c3-8c38-1075d8cf4136)
 
 Made with ❤️ by Maliha Fatima for BudgetEase.
----
-
-Let me know when you've uploaded the actual screenshots, and I can help verify the URLs too!
 
 
 
