@@ -62,7 +62,8 @@ npm run dev
 ![conference1](https://github.com/user-attachments/assets/a7e6e883-5135-4cab-bf55-d174c7cbd1f1)
 ![con2](https://github.com/user-attachments/assets/58428709-bc3f-4d89-a668-b6a90a0833fa)
 ![con3](https://github.com/user-attachments/assets/6cacab00-e59d-443f-95ed-b799fb0d569e)
-![con4](https://github.com/user-attachments/assets/d514daa2-5d78-48c3-8c38-1075d8cf4136)
+![meals](https://github.com/user-attachments/assets/74dff716-4fec-4080-aae3-7b37aaf36198)
+
 
 Made with ❤️ by Maliha Fatima for BudgetEase.
 
