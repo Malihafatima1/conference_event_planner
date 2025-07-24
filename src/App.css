@@ -190,6 +190,48 @@
   }
 }
 
+
+@media (max-width: 480px) {
+  .main_event {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .first_page_name_btn {
+    width: 100%;
+  }
+
+  .aboutus_main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .budget_heading {
+    font-size: 22px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .budget_sentence {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .event-list-container {
+    padding: 10px;
+  }
+
+  .total-cost-container {
+    width: 100% !important;
+    padding: 10px !important;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+}
+
 @media (max-width: 476px) {
   h1, .planner-heading {
     font-size: 20px;
