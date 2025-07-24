@@ -59,7 +59,7 @@ npm run dev
 ```
 ## 📸 Screenshots
 
-![conference1](https://github.com/user-attachments/assets/a7e6e883-5135-4cab-bf55-d174c7cbd1f1)
+<img width="1366" height="768" alt="table" src="https://github.com/user-attachments/assets/56c0e36f-f464-4ef8-af58-71e8448ccd00" />
 ![con2](https://github.com/user-attachments/assets/58428709-bc3f-4d89-a668-b6a90a0833fa)
 ![con3](https://github.com/user-attachments/assets/6cacab00-e59d-443f-95ed-b799fb0d569e)
 ![meals](https://github.com/user-attachments/assets/74dff716-4fec-4080-aae3-7b37aaf36198)
