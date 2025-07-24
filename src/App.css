@@ -190,3 +190,14 @@
   }
 }
 
+@media (max-width: 476px) {
+  h1, .planner-heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+}
+
+
