@@ -336,3 +336,44 @@
     }
 
 }
+
+@media (max-width: 768px) {
+  .main_event {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .aboutus_main {
+    width: 90%;
+  }
+
+  .aboutus_container p {
+    font-size: 18px;
+  }
+
+  .venue_container {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .venue_selection,
+  .addons_selection,
+  .meal_selection {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .venue_main {
+    width: 90%;
+  }
+
+  .text h1 {
+    width: 100%;
+    font-size: 24px;
+    margin-left: 0;
+  }
+}
+
