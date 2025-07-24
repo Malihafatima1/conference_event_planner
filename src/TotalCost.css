@@ -38,3 +38,29 @@
 .right {
   margin-right: 0;
 }
+
+@media (max-width: 768px) {
+  .total_cost {
+    width: 90%;
+    flex-direction: column;
+    margin-left: 0;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .table_item_data {
+    font-size: 14px;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .display_box {
+    width: 95%;
+  }
+}
+
