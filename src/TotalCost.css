@@ -1,13 +1,13 @@
 .pricing-app {
- margin-top: 20px;
- /* margin-left: 40vw; */
- width: 100vw;
- height: 100vh;
- display: flex;
- align-items: center;
- justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Added padding for mobile spacing */
+  box-sizing: border-box;
 }
-
 
 .display_box {
   text-align: center;
@@ -18,23 +18,142 @@
   color: #333;
   margin: 0;
   padding: 55px;
-  width: 80vw;
+  width: 100%;
+  max-width: 80vw; /* More flexible than fixed 80vw */
+  min-width: 300px; /* Ensure minimum readable width */
 }
-
 
 .pricing-app .preheading {
   font-family: dosis, sans-serif;
   text-transform: uppercase;
-  line-height: 1;
-  margin: 0;
-  /* padding: 0 0 10px; */
+  line-height: 1.2; /* Improved line height */
+  margin: 0 0 10px 0; /* Added bottom margin */
   font-size: 25px;
 }
 
 .pricing-app h2 {
   font-size: 60px;
+  margin: 20px 0; /* Added proper margins */
+  line-height: 1.1; /* Better line height for large text */
 }
 
 .right {
   margin-right: 0;
+}
+
+/* Responsive Media Queries */
+
+/* Large tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .display_box {
+    max-width: 85vw;
+    padding: 45px;
+  }
+  
+  .pricing-app h2 {
+    font-size: 50px;
+  }
+  
+  .pricing-app .preheading {
+    font-size: 22px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .pricing-app {
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  .display_box {
+    max-width: 90vw;
+    padding: 35px;
+    border-radius: 12px;
+  }
+  
+  .pricing-app h2 {
+    font-size: 40px;
+    margin: 15px 0;
+  }
+  
+  .pricing-app .preheading {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+  .pricing-app {
+    padding: 10px;
+    margin-top: 10px;
+    min-height: auto; /* Allow flexible height on mobile */
+  }
+  
+  .display_box {
+    max-width: 95vw;
+    min-width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Slightly reduced shadow */
+  }
+  
+  .pricing-app h2 {
+    font-size: 32px;
+    margin: 12px 0;
+    line-height: 1.1;
+  }
+  
+  .pricing-app .preheading {
+    font-size: 18px;
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+}
+
+/* Very small screens */
+@media screen and (max-width: 320px) {
+  .pricing-app {
+    padding: 8px;
+  }
+  
+  .display_box {
+    max-width: 98vw;
+    min-width: 260px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .pricing-app h2 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .pricing-app .preheading {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Landscape orientation on mobile devices */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .pricing-app {
+    min-height: auto;
+    padding: 10px;
+  }
+  
+  .display_box {
+    padding: 20px;
+  }
+  
+  .pricing-app h2 {
+    font-size: 36px;
+    margin: 8px 0;
+  }
+  
+  .pricing-app .preheading {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
 }
