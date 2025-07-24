@@ -13,9 +13,12 @@
   justify-content: center;
   align-items: center;
   color: white;
-  overflow: hidden; 
+  overflow: hidden;
   background-color: rgb(185, 186, 187);
-  /* position: relative; */
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  position: relative;
 }
 
 .first_page::before {
@@ -26,22 +29,27 @@
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
+  z-index: 0;
 }
 
 .first_page h1 {
   position: relative;
   z-index: 1;
+  font-size: 45px;
+  word-wrap: break-word;
+  max-width: 90vw;
 }
 
 .get-started-btn {
-  background-color:#EFC16B;
-  /* color: white; */
+  background-color: #EFC16B;
   color: black;
   border: none;
   padding: 20px 40px;
   font-size: 19px;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 1;
+  position: relative;
 }
 
 .get-started-btn:hover {
@@ -62,13 +70,13 @@
   backdrop-filter: blur(7px);
   gap: 100px;
   background-color: rgba(51, 61, 80, 0.7);
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .aboutus_main {
   width: 800px;
   color: white;
-  /* background-color: rgba(0,0,0,0.1); */
-
 }
 
 .aboutus_container {
@@ -82,8 +90,6 @@
 .aboutus_container p {
   font-size: 23px;
   font-weight: 700;
-  
-
 }
 
 .first_page_name_btn {
@@ -93,15 +99,18 @@
   justify-content: center;
   gap: 30px;
   width: 500px;
+  z-index: 1;
 }
 
 .first_page_name_btn h1 {
   font-size: 45px;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .first_page_name_btn p {
   font-size: 26px;
+  text-align: center;
 }
 
 .event-list-container {
@@ -124,10 +133,15 @@
 
 .budget_heading {
   font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  word-wrap: break-word;
 }
 
 .budget_sentence {
   font-size: 29px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 @media (max-width: 768px) {
@@ -161,8 +175,6 @@
   }
 
   .first_page {
-    flex-direction: column;
-    text-align: center;
     padding: 20px;
   }
 
@@ -182,22 +194,46 @@
     padding: 12px 24px;
     font-size: 16px;
   }
-   .main-title, .planner-heading, h1, h2 {
+
+  .main-title,
+  .planner-heading,
+  h1,
+  h2 {
     font-size: 24px !important;
     text-align: center;
     margin: 10px 0;
     line-height: 1.3;
   }
+
+  .budget_heading {
+    font-size: 24px;
+  }
+
+  .budget_sentence {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 476px) {
-  h1, .planner-heading {
+  h1,
+  .planner-heading,
+  .budget_heading {
     font-size: 20px;
     text-align: center;
     margin-top: 15px;
     line-height: 1.2;
     word-wrap: break-word;
   }
+
+  .budget_sentence {
+    font-size: 16px;
+  }
+
+  .first_page_name_btn h1 {
+    font-size: 24px;
+  }
+
+  .first_page_name_btn p {
+    font-size: 16px;
+  }
 }
-
-
