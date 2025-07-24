@@ -384,27 +384,25 @@ navbar {
 }
 
 @media (max-width: 768px) {
-  .event-form {
-    width: 90%;
-    padding: 15px;
-  }
-
-  .event-form input,
-  .event-form select,
-  .event-form button {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .event-form {
-    width: 95%;
+  .venue_container,
+  .venue_selection, 
+  .addons_selection, 
+  .meal_selection {
+    width: 100vw !important;
+    margin-left: 0 !important;
     padding: 10px;
   }
-
-  .event-form input,
-  .event-form select,
-  .event-form button {
-    font-size: 14px;
+  .main_container {
+    flex-direction: column !important;
+    align-items: center;
   }
-}  
+  .text h1 {
+    font-size: 2rem !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .table_item_data {
+    width: 90vw !important;
+    font-size: 0.9rem;
+  }
+}
