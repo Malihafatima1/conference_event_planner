@@ -6,22 +6,20 @@
 
 .first_page {
   display: flex;
-  min-height: 100vh; /* changed from height to min-height */
+  height: 100vh;
   background-image: url("https://cdn.pixabay.com/photo/2018/07/05/14/45/conference-3518465_1280.jpg");
   background-size: cover;
   background-position: center;
   justify-content: center;
   align-items: center;
   color: white;
+  overflow: hidden;
   background-color: rgb(185, 186, 187);
   flex-direction: column;
   padding: 20px;
   text-align: center;
   position: relative;
-  overflow-x: hidden; /* instead of overflow: hidden */
-  z-index: 0; /* added */
 }
-
 
 .first_page::before {
   content: "";
@@ -31,9 +29,8 @@
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
-  z-index: -1; /* was missing: fix layering */
+  z-index: 0;
 }
-
 
 .first_page h1 {
   position: relative;
