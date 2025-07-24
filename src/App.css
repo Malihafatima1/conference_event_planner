@@ -182,5 +182,11 @@
     padding: 12px 24px;
     font-size: 16px;
   }
+   .main-title, .planner-heading, h1, h2 {
+    font-size: 24px !important;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.3;
+  }
 }
 
