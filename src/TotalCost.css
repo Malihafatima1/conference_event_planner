@@ -59,17 +59,12 @@ pricing-app {
 }
 
 @media (max-width: 768px) {
-  .total-cost-box {
-    width: 90%;
-    padding: 15px;
+  .display_box {
+    max-width: 90vw !important;
+    padding: 1.5rem 1rem !important;
   }
-
-  .total-cost-box h2 {
-    font-size: 22px;
-  }
-
-  .total-cost-box p {
-    font-size: 18px;
+  .pricing-app h2 {
+    font-size: 2.2rem !important;
   }
 }
 
