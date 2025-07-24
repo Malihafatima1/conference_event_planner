@@ -1,38 +1,38 @@
-.pricing-app {
+pricing-app {
   margin-top: 20px;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .display_box {
-  max-width: 80vw;
-  width: 100%;
-  padding: 3.5rem 2rem;
-  box-sizing: border-box;
   text-align: center;
+  box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   background-color: white;
   color: #333;
-  margin: 0 auto;
+  margin: 0;
+  padding: 55px;
+  width: 80vw;
 }
 
 .pricing-app .preheading {
   font-family: dosis, sans-serif;
   text-transform: uppercase;
   line-height: 1;
-  margin: 0 0 1rem;
-  font-size: 1.5rem;
+  margin: 0;
+  font-size: 25px;
 }
 
 .pricing-app h2 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 60px;
+}
+
+.right {
+  margin-right: 0;
 }
 
 .total-cost-box {
@@ -40,77 +40,50 @@
   padding: 20px;
   margin-top: 30px;
   border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .total-cost-box h2 {
-  font-size: 1.5rem;
+  font-size: 24px;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .total-cost-box p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
-/* Responsive media queries */
 @media (max-width: 768px) {
-  .display_box {
-    max-width: 90vw;
-    padding: 1.5rem 1rem;
-  }
-
-  .pricing-app .preheading {
-    font-size: 1.25rem;
-  }
-
-  .pricing-app h2 {
-    font-size: 2.2rem;
-  }
-
   .total-cost-box {
     width: 90%;
     padding: 15px;
   }
 
   .total-cost-box h2 {
-    font-size: 1.3rem;
+    font-size: 22px;
   }
 
   .total-cost-box p {
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 480px) {
-  .display_box {
-    max-width: 95vw;
-    padding: 1rem;
-  }
-
-  .pricing-app .preheading {
-    font-size: 1rem;
-  }
-  
-  .pricing-app h2 {
-    font-size: 1.8rem;
-  }
-
   .total-cost-box {
     width: 95%;
     padding: 10px;
   }
 
   .total-cost-box h2 {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
 
   .total-cost-box p {
-    font-size: 1rem;
+    font-size: 16px;
   }
-}
+}     
